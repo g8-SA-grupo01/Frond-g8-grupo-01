@@ -1,0 +1,147 @@
+li {
+  box-shadow: 0px 0px 0px 2px #022797;
+  background: linear-gradient(to bottom, #040133 5%, #011125 100%);
+  background-color: #143e8b;
+  border: 1px solid #000000;
+  cursor: pointer;
+  font-family: Arial;
+  color: rgb(255, 255, 255);
+}
+li:hover {
+  background: linear-gradient(to bottom, #060d14 5%, #7892c2 100%);
+  background-color: #476e9e;
+}
+li:active {
+  position: relative;
+  top: 1px;
+}
+
+body {
+  background: linear-gradient(-45deg, #041263, #000000, #17576e, #1b0b75);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.card {
+  box-shadow: 0px 0px 0px 2px #022797;
+  background: linear-gradient(-45deg, #041263, #000000, #17576e, #1b0b75);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  border: 1px solid #000000;
+  font-family: Arial;
+  color: rgb(255, 255, 255);
+  max-width: 18rem;
+}
+.card:hover {
+  background: linear-gradient(to bottom, #0d5caa 5%, #070707 100%);
+  background-color: #01234d;
+}
+button {
+  box-shadow: 0px 0px 0px 2px #022797;
+  background: linear-gradient(to bottom, #040133 5%, #011125 100%);
+  background-color: #143e8b;
+  border: 1px solid #000000;
+  cursor: pointer;
+  font-family: Arial;
+  color: rgb(255, 255, 255);
+}
+button:hover {
+  background: linear-gradient(to bottom, #060d14 5%, #7892c2 100%);
+  background-color: #476e9e;
+}
+button:active {
+  position: relative;
+  top: 1px;
+}
+h1 {
+  color: #484848;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 7px;
+  cursor: pointer;
+}
+h1 span {
+  transition: 0.5s linear;
+}
+h1:hover span:nth-child(1) {
+  margin-right: 5px;
+}
+h1:hover span:nth-child(1):after {
+  content: "'";
+}
+h1:hover span:nth-child(2) {
+  margin-left: 30px;
+}
+h1:hover span {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+
+.jumbotron {
+  background: linear-gradient(-45deg, #041263, #000000, #17576e, #1b0b75);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  box-shadow: 0px 0px 0px 2px #022797;
+  max-width: fit-content;
+}
+.dropdown-menu {
+  box-shadow: 0px 0px 0px 2px #022797;
+  background: linear-gradient(to bottom, #040133 5%, #011125 100%);
+  background-color: #143e8b;
+  border: 1px solid #000000;
+}
+.dropdown-item {
+  color: white;
+}
+a:hover {
+  background: linear-gradient(to bottom, #0d5caa 5%, #070707 100%);
+  background-color: #01234d;
+}
+
+.modal-header {
+  box-shadow: 0px 0px 0px 2px #022797;
+  background: linear-gradient(-45deg, #041263, #000000, #17576e, #1b0b75);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  border: 1px solid #000000;
+  font-family: Arial;
+  color: rgb(255, 255, 255);
+}
+.modal-body {
+  box-shadow: 0px 0px 0px 2px #022797;
+  background: linear-gradient(-45deg, #041263, #000000, #17576e, #1b0b75);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  border: 1px solid #000000;
+  font-family: Arial;
+  color: rgb(255, 255, 255);
+}
+.modal-footer {
+  box-shadow: 0px 0px 0px 2px #022797;
+  background: linear-gradient(-45deg, #041263, #000000, #17576e, #1b0b75);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  border: 1px solid #000000;
+  font-family: Arial;
+  color: rgb(255, 255, 255);
+}
+.card h2 {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  font-size: 8rem;
+  color: rgba(255, 255, 255, 0.1);
+}
